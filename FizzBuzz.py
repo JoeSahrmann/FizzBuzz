@@ -18,16 +18,24 @@ for i in ranger:
 #detechs zero and replaces it  
     if (i == 0):                
         print("Welcome to FizzBuzz")
+
+#checks if it is multiple of both 5 and 3
     elif (three == 0 and five == 0):
         print("FizzBuzz")
+
+#checks if it is multiple of 3
     elif (three == 0):
         print("Fizz")
+
+#checks if it is multiple of 5
     elif (five == 0):
         print("Buzz")
+
+#if not any of the ones above print out the number
     else:
         print(i)
         
 #How long did it take
 print(datetime.now() - startTime)
 #original time before improvement 0:00:00.232463
-#NEW time 0:00:00.226478
+#NEW time 0:00:00.218723
